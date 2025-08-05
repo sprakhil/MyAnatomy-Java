@@ -1,0 +1,12 @@
+**/.metadata/
+**/.classpath
+**/.project
+**/.settings/
+
+**/RemoteSystemsTempFiles/
+
+**/target/
+
+**/hibernate.cfg.xml
+
+
