@@ -9,4 +9,8 @@
 
 **/hibernate.cfg.xml
 
+**/module-info.java
+
+**/bin/
+
 
