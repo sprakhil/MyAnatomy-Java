@@ -13,4 +13,8 @@
 
 **/bin/
 
+**/.mvn/
+**/.gitattributes
+**/mvnw
+
 
