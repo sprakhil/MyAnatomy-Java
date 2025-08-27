@@ -35,10 +35,30 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		</dependency>
+		
+		<!-- Eureka client -->
+		    <dependency>
+			     <groupId>org.springframework.cloud</groupId>
+			     <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+		    </dependency>
+		    
+			<!-- Spring Cloud Circuit Breaker with Resilience4j -->
+		    <dependency>
+			     <groupId>org.springframework.cloud</groupId>
+			     <artifactId>spring-cloud-starter-circuitbreaker-resilience4j</artifactId>
+		    </dependency>
+		    
+			<!-- Load balancer so RestTemplate can use service names -->
+		    <dependency>
+			     <groupId>org.springframework.cloud</groupId>
+			     <artifactId>spring-cloud-starter-loadbalancer</artifactId>
+		    </dependency>
+		    
+			<!-- Actuator (optional, handy for health) -->
+		    <dependency>
+			     <groupId>org.springframework.boot</groupId>
+			     <artifactId>spring-boot-starter-actuator</artifactId>
+		    </dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
