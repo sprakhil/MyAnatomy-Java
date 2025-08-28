@@ -4,6 +4,6 @@ spring:
       client:
         registration:
           google:
-            client-id: http://1008430418016-u7vd352gk8docks6pac92kh8nbr26i35.apps.googleusercontent.com
-            client-secret: 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
+            client-id: client-id
+            client-secret: client-secret
             scope: openid,profile,email
